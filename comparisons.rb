@@ -45,21 +45,23 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+# 4 is less than 9 and this will be true
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# books variable has an assigned integer of 3. Print 4 is less than books and this will be false.
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# friends variable has an assigned integer of 6. Siblings has an assigned integer of 2.
+# print friends is greater than siblings and this will be true
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# variable attendees has an assigned integer of 9. variable meals has assigned integer of 8.
+# print attendee is not equal to meals and this will be true
 
 
 #-------------------
@@ -80,17 +82,18 @@ loves_dog_park = false
 loves_treats = true
 age = 1
 
-# YOU DO:
+loves_to_play && loves_treats
 # Determine if the dog loves to play and loves treats
 
-
+loves_to_play && loves_dog_park
 # Determine if the dog loves to play and loves the dog park
 
-
+loves_to_play || loves_dog_park
 # Determine if the dog loves to play or loves the dog park
 
-
+loves_to_play && age == 1
 # Determine if the dog loves to play and is a puppy
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: Final line of code evaluate to be true because the age could be any number.
+# we didn't establish what the age for the puppy is. Age could be 13 and still be true. 
